@@ -20,11 +20,10 @@
     "type": "git",
     "url": "git://github.com/asvd/dragscroll.git"
   },
-  "browser":
-    {
-      "fs": false,
-      "child_process": false
-    },
+  "browser": {
+    "fs": false,
+    "child_process": false
+  },
   "main": "dragscroll.js",
   "dependencies": {},
   "devDependencies": {},
