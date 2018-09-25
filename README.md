@@ -1,28 +1,25 @@
-dragscroll
+rightclick-dragscroll
 ==========
 
-Dragscroll is a micro JavaScript library (910 bytes minified) which
-enables scrolling via holding the mouse button ("drag and drop" or
-"click and hold" style, [online
-demo](http://asvd.github.io/dragscroll/)). It has no dependencies and
+Original implementation by: [Dmitry Prokashev](https://github.com/awersching/rightclick-dragscroll)
+
+Dragscroll is a micro JavaScript library which
+enables scrolling via holding the right mouse button ("drag and drop" or
+"click and hold" style). It has no dependencies and
 is written in vanilla JavaScript (which means it works anywhere).
 
 
 ### Usage
 
+Make sure to disable the context menu (which is mapped to right click per default).
 
-Download the and unpack
-[distribution](https://github.com/asvd/dragscroll/releases/download/v0.0.8/dragscroll-0.0.8.tar.gz),
-or install it using [Bower](http://bower.io/):
 
-```sh
-$ bower install dragscroll
-```
+Download the and unpack or install it using npm:
 
 or npm:
 
 ```sh
-$ npm install dragscroll
+$ npm install rightclick-dragscroll
 ```
 
 Load the `dragscroll.js` in a preferable way (that is an UMD module):
@@ -53,9 +50,4 @@ You can also add the `nochilddrag` attribute to a scrollable element,
 which will only enable drag-scrolling for an element itself, but not
 for its subchildren. This can be usefull, if you want to enable the
 scrolling the area by dragging its empty space, but keep the
-opportunity to select the text (see
-[example](http://asvd.github.io/jailed/demos/web/process/)).
-
--
-
-Follow me on twitter: https://twitter.com/asvd0
+opportunity to select the text.

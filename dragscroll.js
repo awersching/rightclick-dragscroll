@@ -1,9 +1,10 @@
 /**
  * @fileoverview dragscroll - scroll area by dragging
- * @version 0.0.8
+ * @version 1.0
  *
  * @license MIT, see http://github.com/asvd/dragscroll
  * @copyright 2015 asvd <heliosframework@gmail.com>
+ * Adapted by awersching
  */
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
@@ -78,4 +79,3 @@
     }
     exports.reset = reset;
 }));
-
