@@ -2,7 +2,7 @@
     "author": "Adrian Wersching",
     "name": "rightclick-dragscroll",
     "description": "Tiny library for drag-n-drop scrolling style",
-    "version": "1.0",
+    "version": "1.0.0",
     "keywords": [
         "dragscroll",
         "scroll",
